@@ -1,3 +1,3 @@
 # react-native-todo
 
-React Native Todo List
+Tryout basic React Native Todo List with Expo
