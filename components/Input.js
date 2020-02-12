@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TextInput, StyleSheet, View, Button, Modal } from "react-native";
+import { TextInput, StyleSheet, View, Button } from "react-native";
 
 const Input = ({ onAdd }) => {
   const [text, setText] = useState("");
@@ -10,24 +10,33 @@ const Input = ({ onAdd }) => {
   };
 
   return (
-    <View style={{ flexDirection: "row" }}>
+    <View style={styles.inputWrapper}>
       <TextInput
         value={text}
         placeholder="What you have to do?"
         onChangeText={text => setText(text)}
         style={styles.input}
       />
-      <Button title="Add" onPress={addHandler} />
+      <Button
+        title="Add"
+        onPress={addHandler}
+        disabled={!text}
+        color="mediumblue"
+      />
     </View>
   );
 };
 
 const styles = StyleSheet.create({
+  inputWrapper: {
+    flexDirection: "column",
+    width: "100%"
+  },
   input: {
     borderColor: "lightgrey",
     borderWidth: 1,
-    width: "80%",
-    padding: 10
+    padding: 10,
+    marginVertical: 5
   }
 });
 
