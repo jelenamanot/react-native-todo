@@ -12,9 +12,9 @@ const App = () => {
 
 const styles = StyleSheet.create({
   container: {
-    paddingTop: 100,
     flex: 1,
-    alignItems: "center"
+    paddingTop: 100,
+    paddingHorizontal: 20
   }
 });
 

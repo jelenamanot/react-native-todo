@@ -17,7 +17,12 @@ const Input = ({ onAdd }) => {
         onChangeText={text => setText(text)}
         style={styles.input}
       />
-      <Button title="Add" onPress={addHandler} disabled={!text} />
+      <Button
+        title="Add"
+        onPress={addHandler}
+        disabled={!text}
+        color="mediumblue"
+      />
     </View>
   );
 };
@@ -31,8 +36,7 @@ const styles = StyleSheet.create({
     borderColor: "lightgrey",
     borderWidth: 1,
     padding: 10,
-    marginVertical: 5,
-    marginHorizontal: 20
+    marginVertical: 5
   }
 });
 

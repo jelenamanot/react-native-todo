@@ -1,23 +1,33 @@
-import React, { useState } from "react";
-import { StyleSheet, FlatList } from "react-native";
+import React, { useState, useEffect } from "react";
+import { StyleSheet, FlatList, AsyncStorage, Button } from "react-native";
 import ListItem from "./ListItem";
 import Input from "./Input";
 
 const List = () => {
   const [items, setItems] = useState([]);
 
+  useEffect(() => {
+    AsyncStorage.getItem("todoItems").then(itemsFromStorage => {
+      itemsFromStorage ? setItems(JSON.parse(itemsFromStorage)) : [];
+    });
+  }, []);
+
+  useEffect(() => {
+    AsyncStorage.setItem("todoItems", JSON.stringify(items));
+  }, [items]);
+
   const addItemHandler = value => {
     if (value) {
-      setItems(currentItems => [
+      setItems([
         { id: Math.random().toString(), value, done: false },
-        ...currentItems
+        ...items
       ]);
     }
   };
 
   const toggleItemHandler = itemId => {
-    setItems(currentItems =>
-      currentItems.map(item => {
+    setItems(
+      items.map(item => {
         if (item.id === itemId) {
           item = {
             ...item,
@@ -29,9 +39,25 @@ const List = () => {
     );
   };
 
+  const clearItemHandler = itemId => {
+    setItems(items.filter(item => item.id !== itemId));
+  };
+
+  const clearAllHandler = () => {
+    AsyncStorage.clear();
+    setItems([]);
+  };
+
   return (
     <>
       <Input onAdd={addItemHandler} />
+      <Button
+        title="Clear All"
+        style={styles.clearAll}
+        color="red"
+        onPress={clearAllHandler}
+        disabled={!items.length}
+      />
       <FlatList
         keyExtractor={item => item.id}
         style={styles.list}
@@ -39,6 +65,7 @@ const List = () => {
         renderItem={({ item: { id, value, done } }) => (
           <ListItem
             onToggleItem={toggleItemHandler.bind(this, id)}
+            onDeleteItem={clearItemHandler.bind(this, id)}
             title={value}
             done={done}
           />
@@ -50,8 +77,11 @@ const List = () => {
 
 const styles = StyleSheet.create({
   list: {
-    width: "100%",
-    padding: 20
+    width: "100%"
+  },
+  clearAll: {
+    color: "red",
+    margin: 10
   }
 });
 
