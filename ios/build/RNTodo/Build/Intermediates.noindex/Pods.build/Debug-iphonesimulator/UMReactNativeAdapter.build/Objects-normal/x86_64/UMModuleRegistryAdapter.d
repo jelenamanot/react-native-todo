@@ -1,0 +1,41 @@
+dependencies: \
+  /Users/JNesic/Documents/personal/react-native-todo/node_modules/@unimodules/react-native-adapter/ios/UMReactNativeAdapter/UMModuleRegistryAdapter/UMModuleRegistryAdapter.m \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Target\ Support\ Files/UMReactNativeAdapter/UMReactNativeAdapter-prefix.pch \
+  /Users/JNesic/Documents/personal/react-native-todo/node_modules/@unimodules/react-native-adapter/ios/UMReactNativeAdapter/UMViewManagerAdapter/UMViewManagerAdapter.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTViewManager.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTEventDispatcher.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/UIView+React.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Private/UMCore/UMViewManager.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Private/UMCore/UMExportedModule.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Private/UMCore/UMDefines.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Private/UMCore/UMInternalModule.h \
+  /Users/JNesic/Documents/personal/react-native-todo/node_modules/@unimodules/react-native-adapter/ios/UMReactNativeAdapter/UMBridgeModule.h \
+  /Users/JNesic/Documents/personal/react-native-todo/node_modules/@unimodules/react-native-adapter/ios/UMReactNativeAdapter/UMNativeModulesProxy/UMNativeModulesProxy.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Private/UMCore/UMModuleRegistry.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Private/UMCore/UMModuleRegistryDelegate.h \
+  /Users/JNesic/Documents/personal/react-native-todo/node_modules/@unimodules/react-native-adapter/ios/UMReactNativeAdapter/UMModuleRegistryAdapter/UMModuleRegistryAdapter.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Private/UMCore/UMModuleRegistryProvider.h \
+  /Users/JNesic/Documents/personal/react-native-todo/ios/Pods/Headers/Private/UMCore/UMSingletonModule.h \
+  /Users/JNesic/Documents/personal/react-native-todo/node_modules/@unimodules/react-native-adapter/ios/UMReactNativeAdapter/UMModuleRegistryAdapter/UMViewManagerAdapterClassesRegistry.h
